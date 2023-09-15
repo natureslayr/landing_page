@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .body {
   display: flex;
   flex-direction: column;
@@ -8,7 +13,7 @@
   display: flex;
   background-color: #1f2937;
   justify-content: space-between;
-  height: 50px;
+  min-height: 50px;
   align-items: center;
   padding: 0 100px;
 }
@@ -32,16 +37,20 @@ li {
   color: #f9faf8;
 }
 
-.low-head {
+.section-one {
   display: flex;
   background-color: #1f2937;
-  height: 400px;
+  min-height: 400px;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
 
-img {
+.subtext-one {
+  color:#f9faf8;
+}
+
+.section-one > img {
   height: 250px;
   width: auto;
   flex-grow: 0;
@@ -61,37 +70,92 @@ img {
   font-weight: 900;
 }
 
-.subtext {
-  color:#f9faf8;
+.subtext-two {
+  color:black;
+  text-align: center;
 }
 
-.content {
+.section-two {
   display: flex;
-  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  gap: 50px;
+  margin-top: -50px;
 }
 
-.quote-section {
+.main-sub {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.image-section {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.image-with-text {
+  height: auto;
+  width: 150px;
+}
+
+.image-with-text > img {
+  height: auto;
+  width: 150px;
+  flex: 1;
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
   height: 350px;
   background-color: #e5e7eb;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
 }
 
 .quote {
   font-style: italic;
   font-size: 36px;
   color: #1F2937;
+  width: 750px;
 }
 
 .quote-owner {
   color: #1f2937;
   font-weight: bold;
+  text-align: right;
 }
 
-.call-to-action-section {
+.section-four{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 300px;
 }
 
+.sign-up {
+  background-color: #3882f6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.call-to-action-sub {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+button{
+  display: inline-block;
+}
 .footer {
   display: flex;
   background-color: #1f2937;
