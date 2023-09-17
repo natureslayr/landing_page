@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
   min-height: 50px;
   align-items: center;
-  padding: 0 100px;
+  padding: 0 75px;
 }
 
 .logo {
@@ -55,6 +55,21 @@ li {
   width: auto;
   flex-grow: 0;
   flex-shrink: 0;
+}
+
+.section-one-button {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #3882f6;
+  border-color: #3882f6;
+  border-radius: 10px;
+  border-style: solid;
+  font-weight: bold;
+  flex: auto;
+  align-self: flex-start;
 }
 
 .left-text {
@@ -107,6 +122,9 @@ li {
   height: auto;
   width: 150px;
   flex: 1;
+  border-color:#3882f6;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 .section-three {
@@ -124,6 +142,7 @@ li {
   font-size: 36px;
   color: #1F2937;
   width: 750px;
+  font-weight: light;
 }
 
 .quote-owner {
@@ -146,6 +165,7 @@ li {
   padding-bottom: 50px;
   padding-left: 100px;
   padding-right: 100px;
+  border-radius: 10px;
 }
 
 .call-to-action-sub {
@@ -153,9 +173,20 @@ li {
   flex-direction: row;
   gap: 50px;
 }
-button{
+
+button {
   display: inline-block;
 }
+
+.call-to-action-main {
+  color: white;
+  font-weight: bold;
+}
+
+.call-to-action-text {
+  color: white;
+}
+
 .footer {
   display: flex;
   background-color: #1f2937;
@@ -164,4 +195,15 @@ button{
   align-items: center;
   padding: 0 100px;
   color: #f9faf8;
+}
+
+.sign-up button {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  background-color: #3882f6;
+  border-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  font-weight: bold;
 }
